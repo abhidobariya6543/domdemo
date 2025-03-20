@@ -1,0 +1,14 @@
+.pagination-container {
+    display: flex;
+    gap: 10px;
+    .dot-container {
+        cursor: pointer;
+    }
+    .active-pagination {
+        svg {
+            circle {
+                fill: var(--poison-green);
+            }
+        }
+    }
+}

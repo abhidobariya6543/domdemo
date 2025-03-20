@@ -1,0 +1,194 @@
+
+.page-footer {
+    p {
+        margin-bottom: 0;
+    }
+    .footer-secton-1 {
+        background-color: var(--green);
+        width: 100%;
+        padding: 0 164px;
+        flex-direction: column;
+        align-items: flex-start;
+        display: flex;
+        .get-in-touch {
+            .heading-h2 {
+                font-weight: bold;
+                color: var(--almost-white);
+                padding-top: 50px;
+                margin-left: -50px;
+            }
+        }
+        .bubble-section {
+            display: flex;
+            align-items: end;
+            width: 100%;
+            justify-content: right;
+            margin-top: -130px;
+            margin-left: 40px;
+            .address-container {
+                height: 294px;
+                width: 294px;
+                border-radius: 50%;
+                background-color: var(--almost-white);
+                color: var(--green);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 25px;
+                text-align: center;
+                margin-right: -70px;
+                .subtitle-md {
+                    font-weight: 500;
+                    transform: rotate(-25deg);
+                }
+            }
+            .email-linkedin-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: -65px;
+                .email-container {
+                    height: 300px;
+                    width: 300px;
+                    border-radius: 50%;
+                    border: 4.302px solid var(--almost-white);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    text-align: center;
+                    .subtitle-lg {
+                        color: var(--almost-white);
+                        font-weight: 500;
+                        transform: rotate(20deg);
+                    }
+                }
+                .linkedin-container {
+                    height: 178px;
+                    width: 178px;
+                    border-radius: 50%;
+                    border: 4.302px solid var(--almost-white);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 25px;
+                    text-align: center;
+                    .image-container {
+                        width: 126px;
+                        height: 126px;
+                    }
+                }
+            }
+            .insta-phone-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .insta-container {
+                    height: 121px;
+                    width: 121px;
+                    border-radius: 50%;
+                    border: 4.302px solid var(--almost-white);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 25px;
+                    text-align: center;
+                    margin-left: -55px;
+                    margin-bottom: -5px;
+                    .image-container {
+                        height: 86px;
+                        width: 86px;
+                    }
+                }
+                .phone-container {
+                    height: 300px;
+                    width: 300px;
+                    border-radius: 50%;
+                    border: 4.302px solid var(--almost-white);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    text-align: center;
+                    .subtitle-md {
+                        color: var(--almost-white);
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+    .footer-secton-2 {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--almost-white);
+        position: relative;
+        padding: 118px 274px 118px 274px;
+        .footer-main-2-section {
+        }
+        .details-container {
+            display: flex;
+            justify-content: space-between;
+            .dom-details-container {
+                display: flex;
+                flex-direction: column;
+            }
+            .contact-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .social-media-container {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    .insta-container {
+                        height: 85px;
+                        width: 85px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .linkedin-container {
+                        height: 85px;
+                        width: 85px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .image-container  {
+                        height: 85px;
+                        width: 85px;
+                    }
+                }
+            }
+        }
+        .labels-container {
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            gap: 25px;
+            bottom: 32px;
+            right: 274px;
+            a {
+                color: var(--green);
+                text-decoration: none;
+            }
+        }
+    }
+    .inverted {
+        background-color: var(--green);
+        color: var(--almost-white);
+        .get-in-touch-container {
+            .button-default  {
+                background-color: var(--almost-white) !important;
+                color: var(--green) !important;
+            }
+        }
+        .labels-container {
+            a {
+                color: var(--almost-white) !important;
+                text-decoration: none !important;
+            }
+        }
+    }
+}

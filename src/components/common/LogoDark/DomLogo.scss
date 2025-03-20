@@ -1,0 +1,17 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .dom-txt-logo {
+        .image-container {
+            width: 220px;
+            height: 75px;
+        }
+    }
+    .dom-logo {
+        .image-container {
+            width: 67px;
+            height: 88px;
+        }
+    }
+}

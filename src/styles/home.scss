@@ -1,0 +1,12 @@
+@import "./_app_variables.scss";
+
+.heading {
+    text-align: center;
+    font-size: 6rem;
+    color: var(--cappuccino);
+    .arrow-red {
+        path {
+            fill: var(--yellow);
+        }
+    }
+}

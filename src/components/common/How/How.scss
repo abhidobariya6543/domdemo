@@ -1,0 +1,25 @@
+.how-main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--green);
+    .how-main-container-section {
+        padding: 80px 272px;
+    }
+    .how-title-container {
+        display: flex;
+        justify-content: center;
+        color: var(--poison-green);
+        .heading-h2 {
+            // line-height: normal;
+        }
+    }
+    .how-details-container {
+        display: flex;
+        flex-direction: column;
+        .content-section {
+            :nth-child(even) {
+                flex-direction: row-reverse;
+            }
+        }
+    }
+}

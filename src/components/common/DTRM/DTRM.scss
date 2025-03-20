@@ -1,0 +1,32 @@
+.content-section {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    :nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .image-content {
+        margin-right: 100px;
+        .image-container {
+            height: 372px;
+            width: 352px;
+        }
+    }
+    .data-content {
+        text-align: left;
+        color: var(--poison-green);
+        .title {
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.reverse-content {
+    flex-direction: row-reverse;
+    .image-content {
+        margin-right: 0;
+        margin-left: 100px;
+    }
+}

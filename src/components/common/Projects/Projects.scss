@@ -1,0 +1,122 @@
+.projects-main-container {
+    padding: 100px 0px;
+    background-color: var(--almost-white);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .title-container {
+        padding: 0 90px;
+        color: var(--green);
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .project-slider-section {
+        position: relative;
+        .project-section {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            .project-slider {
+                width: 100%;
+                height: 100%;
+                min-height: 500px;
+                .image-container {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .project-details {
+                position: absolute;
+                width: calc(100% - 167px);
+                left: 0;
+                bottom: 0;
+                height: 190px;
+                background-color: #FFFFFF;
+                opacity: 0.8;
+                margin: 0 83px;
+                padding: 30px;
+                .top-container {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    .dtrm-labels {
+                        display: flex;
+                        .lebel-container {
+                            padding: 5px 15px;
+                            margin-right: 10px;
+                            border-radius: 8px;
+                            background-color: var(--almost-white);
+                            height: 40px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            p {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    .view-project-container {
+                        display: flex;
+                        align-items: center;
+                        .text-small {
+                            cursor: pointer;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                .bottom-container {
+                    margin-top: 15px;
+                    .subtitle-lg {
+                        line-height: normal;
+                        font-weight: 500;
+                    }
+                }
+                .other-details-container {
+                    p {
+                        margin-bottom: 0;
+                    }
+                    .link-section {
+                        width: 150px;
+                        display: flex;
+                        flex-direction: column;
+                        .link-button {
+                            width: fit-content;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+            .show-details {
+                height: 90%;
+                opacity: 1;
+            }
+            .pagination-container {
+                .pagination {
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    background-color: #000000;
+                    opacity: 0.1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 45%;
+                    cursor: pointer;
+                    .image-container {
+                        width: 17px;
+                        height: 25px;
+                    }
+                }
+                .left {
+                    left: 20px;
+                }
+                .right {
+                    right: 20px;
+                }
+            }
+        }
+    }
+}

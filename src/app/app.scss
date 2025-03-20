@@ -1,0 +1,31 @@
+.content-section-header {
+    background-color: var(--almost-white);
+    a {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+        padding-top: 20px;
+    }
+    .liner {
+        border-bottom: 2px solid var(--green);
+        opacity: 0.2;
+        width: 100%;
+        margin: 0 20px;
+        width: calc(100% - 40px);
+    }
+}
+
+.content-data-section {
+    background-color: var(--almost-white);
+    min-height: calc(100vh - 555px);
+    
+    .download-container {
+        padding: 0 272px 100px 272px;
+        display: flex;
+        flex-direction: column;
+        .link-button {
+            width: fit-content;
+        }
+    }
+}
